@@ -1,3 +1,4 @@
+function dieroll(){
 var rand1 = Math.floor(Math.random()*6)+1;
 console.log(rand1);
 var rand2 = Math.floor(Math.random()*6)+1;
@@ -68,5 +69,6 @@ else if(rand1==rand2){
 
     const var6 =document.getElementsByClassName("p2");
     var6[0].textContent="Draw";
+}
 }
 
