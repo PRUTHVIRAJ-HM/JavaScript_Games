@@ -1,4 +1,4 @@
-let music = new Audio("music.mp3");
+console.log("Welcome to the game");
 let Audioturn = new Audio("./assets/ting.mp3");
 let gameover = new Audio("./assets/gameover.mp3");
 let turn = "X";
@@ -35,7 +35,7 @@ const checkWin=()=>{
 }
 
 
-music.play()
+
 let boxes=document.getElementsByClassName("box");
 Array.from(boxes).forEach(element=>{
     let boxtext=element.querySelector('.boxtext');
@@ -66,7 +66,7 @@ reset.addEventListener('click',()=>{
     document.getElementsByClassName("info")[0].innerText="Turn for "+turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="0px";
     const var1 = document.getElementsByClassName("titleout");
-    var1[0].textContent="Lets Begin !"
+    var1[0].textContent="Lets Begin !";
     
 
         
