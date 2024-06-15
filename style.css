@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins";
+}
+body{
+    background-color: #45474B;
+    color:#F5F7F8;
+}
+
+nav ul{
+    list-style-type:none;
+    background-color: #F4CE14;
+    color:#45474B;
+    height:75px;
+    font-weight: 600;
+    font-size: 35px;
+    display:flex;
+    align-items: center;
+    padding:0 12px;
+    justify-content: center;
+}
+.gamecontainer{
+    background-color:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+
+}
+.container{
+    display:grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: "Sora";
+}
+.box{
+    border:3.5px solid #F4CE14;
+    font-size:8vw;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box:hover{
+   background-color:#495e57c0;
+  
+}
+.gameinfo{
+    
+    padding:0 34px;
+    font-family: "Sora";
+    margin-left: 50px;
+
+}
+.gameinfo h1{
+    font-size:2.5rem;
+}
+.imgbox img{
+    width:0;
+    transition: width 1s ease-in-out;
+}
+
+.br-0{
+    border-right:0;
+}
+.bl-0{
+    border-left:0;
+}
+.bt-0{
+    border-top:0;
+}
+.bb-0{
+    border-bottom:0;
+}
+#reset{
+    margin:0 23px;
+    margin-top: 3.5px;
+    padding:5px 20px;
+    background-color:#45474B;
+    color:#F4CE14;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Sora";
+    border:solid white 2px;
+
+}
+.info{
+    font-weight: 700;
+    font-size:20px;
+}
+
+
+
+
+/* this is a section for window resizeing */
+
+@media screen and (max-width:780px)
+{
+    .gamecontainer{
+        flex-wrap: wrap;
+
+    }
+    .gameinfo{
+        margin-top:34px;
+    }
+    .gameinfo h1{
+        font-size:2.0rem;
+    }
+    .container{
+        display:grid;
+        grid-template-rows: repeat(3,25vw);
+        grid-template-columns: repeat(3,25vw);
+    }
+    .box{
+        font-size:15vw;
+    }
+    .gameinfo{
+       text-align: center;
+       margin:0;
+       margin-top:5px;
+    }
+}
+
