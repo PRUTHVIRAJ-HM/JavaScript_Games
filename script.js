@@ -65,7 +65,8 @@ reset.addEventListener('click',()=>{
     isgameover=false;
     document.getElementsByClassName("info")[0].innerText="Turn for "+turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="0px";
-    
+    const var1 = document.getElementsByClassName("titleout");
+    var1[0].textContent="Lets Begin !"
     
 
         
