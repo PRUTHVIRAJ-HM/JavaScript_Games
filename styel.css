@@ -9,6 +9,15 @@
     margin:auto;
     width:80%;
 }
+
+
+
+
+
+
+
+
+
 .holderimg{
     width:80%;
     border-radius: 8px;
@@ -24,4 +33,17 @@
 button{
     border-radius: 20px;
 
+}
+.mainbutton{
+    border-radius: 5px;
+    padding:5px 30px;
+    font-size: 20px;
+    background-color:#0A58CA;
+    box-shadow:5px 5px black;
+    
+}
+.innerlink{
+    color:white;
+    text-decoration: none;
+   
 }
