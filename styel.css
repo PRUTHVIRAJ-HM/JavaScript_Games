@@ -1,0 +1,27 @@
+*{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.gametitle{
+    margin-right:10%;
+}
+.col{
+    margin:auto;
+    width:80%;
+}
+.holderimg{
+    width:80%;
+    border-radius: 8px;
+    border:solid black 5px;
+}
+.card-text{
+    padding:5px;
+    font-size:25px;
+}
+.card-body{
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+
+}
